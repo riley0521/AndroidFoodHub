@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="0dp"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content">
+
+
+    <com.battleent.ribbonviews.RibbonLayout
+        android:id="@+id/ribbonLayout"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:header_padding="10"
+        app:header_ribbonRadius="6"
+        app:header_textSize="20"
+        app:header_ribbonColor="@android:color/transparent"
+        app:show_header="true"
+        app:show_bottom="false">
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/food_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/redirect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"/>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            android:weightSum="10"
+            >
+
+            <TextView
+                android:id="@+id/food_name"
+                android:text="Name of food"
+                android:textSize="20sp"
+
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/btnShare"
+
+                android:src="@drawable/ic_share_black_24dp"
+                android:tint="@color/colorAccent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                />
+
+            <com.like.LikeButton
+                android:id="@+id/fav"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:like_drawable="@drawable/heart_on"
+                app:unlike_drawable="@drawable/heart_off"
+                app:circle_start_color="@color/colorPrimary"
+                app:circle_end_color="#FF0000"
+                app:dots_primary_color="#FF0"
+                app:dots_secondary_color="@color/colorPrimary"
+                app:icon_size="22dp"
+                app:anim_scale_factor="3"
+                app:icon_type="heart" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/food_price"
+                android:text="₱100"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/btn_quickAdd"
+
+                android:src="@drawable/ic_shopping_cart_black_24dp"
+                android:tint="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content"
+                />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    </com.battleent.ribbonviews.RibbonLayout>
+
+</android.support.v7.widget.CardView>

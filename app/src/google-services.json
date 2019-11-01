@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "489064018157",
+    "firebase_url": "https://androidorderingsystem.firebaseio.com",
+    "project_id": "androidorderingsystem",
+    "storage_bucket": "androidorderingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489064018157:android:d297af437f82f547",
+        "android_client_info": {
+          "package_name": "com.example.riley.foodorderingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489064018157-37c452sp0pbsptu7rc5ic64binbqel6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.riley.foodorderingsystem",
+            "certificate_hash": "4d311076222bd3e56ad9781a4734bf6c6200cb99"
+          }
+        },
+        {
+          "client_id": "489064018157-9tn5pvo1hf42bohejes46e22o38bn72i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApzdUiVRJDDaAj6GHedmb0S2g6aTXOZxY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489064018157-9tn5pvo1hf42bohejes46e22o38bn72i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

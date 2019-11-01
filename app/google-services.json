@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "269399062998",
+    "firebase_url": "https://android-food-hub.firebaseio.com",
+    "project_id": "android-food-hub",
+    "storage_bucket": "android-food-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269399062998:android:8b8b0f966b630688",
+        "android_client_info": {
+          "package_name": "com.example.riley.androidfoodhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269399062998-4kook35b5fhs73a0uum83elcfqgl69c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.riley.androidfoodhub",
+            "certificate_hash": "4d311076222bd3e56ad9781a4734bf6c6200cb99"
+          }
+        },
+        {
+          "client_id": "269399062998-gto05bcgbct0ar2l5ilvlia3fosukfog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASnAUK5TNePL_35Q3s-egRidkzOzGrTJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269399062998-gto05bcgbct0ar2l5ilvlia3fosukfog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269399062998:android:4a10873c619aae4f",
+        "android_client_info": {
+          "package_name": "com.example.riley.androidfoodhubserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269399062998-j11a9pcd5h6kllde7frdlias7trjpq50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.riley.androidfoodhubserver",
+            "certificate_hash": "4d311076222bd3e56ad9781a4734bf6c6200cb99"
+          }
+        },
+        {
+          "client_id": "269399062998-gto05bcgbct0ar2l5ilvlia3fosukfog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASnAUK5TNePL_35Q3s-egRidkzOzGrTJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269399062998-gto05bcgbct0ar2l5ilvlia3fosukfog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
