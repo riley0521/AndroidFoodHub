@@ -19,6 +19,7 @@ import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 import java.util.Map;
+import java.util.Objects;
 import java.util.Random;
 
 /**
@@ -41,7 +42,7 @@ public class MyFirebaseMessaging extends FirebaseMessagingService {
 
     private void sendNotificationAPI26(RemoteMessage remoteMessage) {
         RemoteMessage.Notification notification = remoteMessage.getNotification();
-        String title = notification.getTitle();
+        String title = Objects.requireNonNull(notification).getTitle();
         String content = notification.getBody();
 
         Intent intent = new Intent(this, OrderStatus.class);

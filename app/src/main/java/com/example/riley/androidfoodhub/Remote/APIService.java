@@ -1,7 +1,7 @@
 package com.example.riley.androidfoodhub.Remote;
 
 
-
+import com.example.riley.androidfoodhub.BuildConfig;
 import com.example.riley.androidfoodhub.Model.DataMessage;
 import com.example.riley.androidfoodhub.Model.MyResponse;
 
@@ -18,7 +18,7 @@ public interface APIService {
     @Headers(
             {
                     "Content-Type:application/json",
-                    "Authorization:key=AAAAPrlvedY:APA91bHi0AZS1CWWrva4pl718tPn7Ybvh9iMwM1wDFIqv7z_rCbclsrUQZh5i24v1QYBo1FHyhJNklFGJzDT2wozezM9IWjEd1msRNtzajNvS1ZpO4dT-tHTEm3MHIbkPk2r2BuSAtUZ"
+                    "Authorization:key=" + BuildConfig.AUTHORIZATION_KEY
             }
     )
     @POST("fcm/send")
